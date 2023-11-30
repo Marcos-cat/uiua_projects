@@ -1,0 +1,19 @@
+GreatestDiff ← /↥⊂¯1▽≠0.-\↧.
+Pythag ← √+∩(×.)
+Av ← ÷⊃⧻/+
+StDev ← ⍜⍘√(÷⊃⧻/+)-÷⊃⧻/+.
+Fct ← /×+1⇡
+AddDigits ← ⍥(⍜⇌(↘=0⊢.)⬚0+◿10:⊂0≥10.)2+
+Scramble ← ⊏⍏∵(×⚂)=..
+StDev ← ⍜⍘√(÷⊃⧻/+)-÷⊃⧻/+.
+MaxCount ← ↥∩/+⊃><0
+GCD ← /↥⊚⬚0×∩(=0◿⇡+1.)
+# Euclid's algorithm
+GCD ← ;⍢(◿,⊃↥↧)(≠0)
+MinMaxGCD ← GCD ⊃/↥/↧
+ParenDepth ← /↥\+-∩=@),@(
+DupZeros ← ↙⊃⧻(▽+1=0.)
+ConcatStrsEq ← ≍∩⊐/⊂
+PermEqStrs ← /×=0◿⊃⧻(⍘⊚⊛⊐/⊂)
+Factor ← =0◿⇡+1.
+SmplfyFrac ← ×⊙:∩÷,:/↥⊚⬚0×∩(=0◿⇡+1.),,⊃∩⌵(±×)
