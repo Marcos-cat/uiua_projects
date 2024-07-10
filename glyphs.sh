@@ -1,1 +1,1 @@
-bat ./primitives.json | jq '.[]|select(.deprecated!=true).glyph|select(.)'
+bat ./primitives.json | jq '.[]|select(.deprecated|not).glyph|select(.)'

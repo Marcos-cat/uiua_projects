@@ -1,10 +1,11 @@
 c ← (◌&runi"clear")
 g ← (¯⌵&sc&pf)
-w ← c g"Input a word: "
+W ← c g"Input a word: "
+w ← $"Wrong Guesses: _"/+¬∊⊙W
 q ← ⊙◌⍢⋅(⊢g"Already guessed. Try again: ")∊ ⊢g"Guess: "
-b ← ⊂ ⊂⊙@\n ♭≡(⇌⊟@\s⟨⋅@_|∘⟩∊ ⟜:)w ¤.
-f ← /↧≡∊w¤
+b ← join⊂ ⊂⊙@\n ⊃(♭≡(⇌⊟@\s(⋅@_|∘)∊ ⟜:)W¤|w)
+f ← /↧≡∊W¤
 ""
 &p b.
-⍢((&p b). ⊂⟜q|↥⊃(<6/+≡(¬∊:w))f)
-&p⟨$"The word was _" w|"You won!"⟩f
+⍢((&p b). ⊂⟜q|↥⊃(<6/+≡(¬∊:W))f)
+&p($"The word was _" W|"You won!")f
